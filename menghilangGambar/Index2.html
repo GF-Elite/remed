@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="jquery-3.2.1.min.js" ></script>
+  <script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $(".sembunyi").click(function(){
+      $("#foto").hide("slow");
+$(".tempil").click(function(){
+      $("#foto").show("slow");
+    });
+    });
+  });
+  </script>
+  
+ 
+  <title></title>
+  
+</head>
+<body>
+  <button class="sembunyi">menghilang</button>
+  <button class="tempil">tempil</button>
+  <p><img id="foto" src="saya.jpg"  /></p>
+</body>
+</html>
